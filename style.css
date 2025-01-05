@@ -971,7 +971,7 @@ footer p {
     }
     
     #texto-inicio2 {
-        font-size: 35px;
+        font-size: 80%;
         margin: 0%;
         overflow: hidden;
         border-right: 2px solid #0cc0df;
@@ -1403,13 +1403,13 @@ footer p {
     }
     
     #texto-inicio1 {
-        font-size: 80%;
+        font-size: 10px;
         margin: 1%;
         font-weight: normal;
     }
     
     #texto-inicio2 {
-        font-size: 35px;
+        font-size: 80%;
         margin: 0%;
         overflow: hidden;
         border-right: 2px solid #0cc0df;
@@ -1840,13 +1840,13 @@ footer p {
     }
     
     #texto-inicio1 {
-        font-size: 80%;
+        font-size: 10px;
         margin: 2%;
         font-weight: normal;
     }
     
     #texto-inicio2 {
-        font-size: 16px;
+        font-size: 80%;
         margin: 0%;
         overflow: hidden;
         border-right: 2px solid #0cc0df;
