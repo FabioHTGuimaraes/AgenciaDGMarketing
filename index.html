@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inclui o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Define o ícone da página -->
+    <link rel="icon" href="img/Captura_de_tela_2025-01-04_153110-removebg-preview.png">
+
+    <!-- Inclui o arquivo de script JavaScript -->
+    <script src="script.js"></script>
+
+    <!--Links do bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--Links do biblioteca QRCode.js-->
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    
+    <!--Nome da pagina-->
+    <title>Agência DG Marketing</title>
+
+</head>
+
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header id="header">
+
+            <img src="img/Captura_de_tela_2025-01-04_153203-removebg-preview.png" id="imgheader">
+
+            <nav id="nav-centro"> 
+                <a href="#Sobre">Sobre</a> 
+                <a href="#Serviços">Serviços</a> 
+                <a href="#Mapa">Mapa</a> 
+                <a href="#Depoimentos">Depoimentos</a> 
+                <a href="#Contato">Contato</a>
+            </nav>
+
+    </header>
+    
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Aba inicio da página -->
+        <div id="Inicio">
+            
+            <div id="conteudo-inicio">
+
+                <h3 id="texto-inicio2">Procurando uma <span id="destaque">agência de marketing?</span></h3>
+
+                <h1 id="texto-inicio1">Você está a poucos passos de tornar<br>o seu negócio muito mais lucrativo!</h1>
+
+                <button type="button" id="button-inicio" onclick="redirecionarParaPagina4()">Quero mais informações</button>
+                
+                <div id="clientes-info">
+
+                    <img src="img/+4_Anos_de_Experinecia-removebg-preview.png" id="img-clientes">
+
+                    <h3 id="texto-inicio3">+ de 600 empresas<br>atendidas por nós</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Aba sobre do projeto -->
+        <div id="Sobre">
+
+            <img src="img/Logo -  DG.png" id="img-eu">
+            
+            <div>
+
+                <h1 id="texto-sobre1">Sobre <span id="destaque">nossa agência</span></h1>
+
+                <h2 id="texto-sobre2">
+                    Somos uma agência digital com foco em resultado e performance. Nosso objetivo é entregar o melhor resultado para nossos clientes, melhorando seu posicionamento e aumentando as suas vendas.<br><br>
+
+                    A agência de marketing que você está procurando precisa dominar o ciclo de resultado, aqui na DG Marketing temos as estratégias certas para destacar seu negócio!.
+                    Oferecemos serviços completos de marketing digital, incluindo Google meu negócio (SEO), tráfego pago, criação de conteúdo, criação de landing page e muito mais.<br><br>
+
+                    Vamos trabalhar juntos para colocar seu negocio em destaque e sair na frente de seus concorrentes. Entre em contato conosco e saiba mais sobre nossos serviços!
+                </h2><br>
+
+            </div>
+
+        </div><br><br>
+
+        <!-- Aba serviços do projeto -->
+        <div id="Serviços">
+
+            <h1 id="texto-serviços1">O marketing que você precisa está aqui e<br> com <span id="destaque">estratégias personalizadas</span></h1>
+            
+            <h3 id="texto-serviços2">Conheça todos os serviços que oferecemos<br>para que sua empresa tenha mais resultados</h3>
+
+            <!-- Contêiner do carrossel -->
+            <div id="carousel-container">
+
+                <button class="carousel-btn left" onclick="moveCarousel(-1)">❮</button>
+
+                <div id="carousel">
+
+                   <div id="card">
+                        <img src="img/fgfgfgfgfgf.png" id="card-img">
+
+                        <div id="card-corpo">
+
+                            <h5 id="card-titulo">Tráfego Pago (mídia paga)</h5>
+                            <h5 id="card-texto">Fazemos a gestão dos seus anúncios online pelo Google ads e Meta Ads (Facebook e Instagram) com o objetivo de atrair clientes interessados em comprar seus produtos ou serviços.</h5>
+                            <button type="button" id="button-inicio" onclick="redirecionarParaPagina4()">Quero mais informações</button>
+
+                        </div>
+                    </div>
+
+                    <div id="card">
+                        <img src="img/4.png" id="card-img">
+
+                        <div id="card-corpo">
+
+                            <h5 id="card-titulo">Google Meu Negócio (SEO)</h5>
+                            <h5 id="card-texto">Otimizamos ou criamos do zero seu perfil no Google meu negócio com as configurações certas para deixar seu negócio na primeira página e assim atrair mais clientes de maneira orgânica.</h5>
+                            <button type="button" id="button-inicio" onclick="redirecionarParaPagina4()">Quero mais informações</button>
+
+                        </div>
+                    </div>
+
+                    <div id="card">
+                        <img src="img/5.png" id="card-img">
+
+                        <div id="card-corpo">
+
+                            <h5 id="card-titulo">Landing Page (Site)</h5>
+                            <h5 id="card-texto">Projetamos sites personalizados para trazer mais oportunidades de venda para seu negócio, pensando sempre nas características da sua marca e as necessidades do seu cliente.</h5>
+                            <button type="button" id="button-inicio" onclick="redirecionarParaPagina4()">Quero mais informações</button>
+
+                        </div>
+                    </div>
+                    
+                    <div id="card">
+                        <img src="img/6.png" id="card-img">
+
+                        <div id="card-corpo">
+
+                            <h5 id="card-titulo">Criação De Artes</h5>
+                            <h5 id="card-texto">Criamos artes personalizadas para suas redes sociais, garantindo um visual profissional e atrativo que fortalece sua marca, e assim atrair o público certo e aumenta seu alcance.</h5>
+                            <button type="button" id="button-inicio" onclick="redirecionarParaPagina4()">Quero mais informações</button>
+
+                        </div>
+                    </div>
+
+                    <div id="card">
+                        <img src="img/7.png" id="card-img">
+
+                        <div id="card-corpo">
+
+                            <h5 id="card-titulo">Script De Atendimento</h5>
+                            <h5 id="card-texto">Criamos ou otimizamos seu script de atendimento para o WhatsApp, garantindo um aumento na quantidade de conversão, melhorar o relacionamento com o cliente e impulsionar suas vendas.</h5>
+                            <button type="button" id="button-inicio" onclick="redirecionarParaPagina4()">Quero mais informações</button>
+
+                        </div>
+                    </div>
+
+                    <div id="card">
+                        <img src="img/8.png" id="card-img">
+
+                        <div id="card-corpo">
+
+                            <h5 id="card-titulo">Outros Serviços...</h5>
+                            <h5 id="card-texto">Temos as soluções perfeitas para seu negócio, tenha um time feito sob medida para atender o seu marketing</h5><br><br>
+                            <button type="button" id="button-inicio" onclick="redirecionarParaPagina4()">Quero mais informações</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-btn right" onclick="moveCarousel(1)">❯</button>
+            
+            </div>
+
+        </div>
+
+        <!-- Aba mapa do projeto -->
+        <div id="Mapa">
+
+            <h1 id="texto-mapa1">Atendemos clientes de todo o<br> <span id="destaque">Brasil e Estados Unidos</span><br></h1>
+            
+            <h3 id="texto-mapa2">Domine sua região e conquiste novos clientes</h3>
+
+            <img src="img/fgfgfffffffgfgfgf.png" id="img-mapa">
+
+            <h3 id="texto-mapa3">Cases de sucesso em diversos estados e cidades</h3>
+            
+
+        </div><br><br>
+
+        <!-- Aba depoimentos do projeto -->
+        <div id="Depoimentos">
+
+            <h1 id="texto-depoimentos1">Esses são os <span id="destaque">depoimentos</span><br> de alguns clientes nossos</h1>
+            
+            <h3 id="texto-depoimentos2">Nós temos os caminhos para sua empresa<br> ter o resultado que merece.</h3>
+            
+            <!-- Contêiner do carrossel -->
+            <div id="carousel-container1">
+
+                <button class="carousel-btn left" onclick="moveCarousel1(-1)">❮</button>
+
+                <div id="carousel1">
+
+                    <div id="card1">
+                        <img src="img/Captura de tela 2025-01-04 192822.png" id="card-img1">
+                    </div>
+
+                    <div id="card1">
+                        <img src="img/Captura de tela 2025-01-04 193332.png" id="card-img1">
+                    </div>
+
+                    <div id="card1">
+                        <img src="img/Captura de tela 2025-01-04 193410.png" id="card-img1">
+                    </div>
+                    
+                    <div id="card1">
+                        <img src="img/Captura de tela 2025-01-04 193424.png" id="card-img1">
+                    </div>
+
+                    <div id="card1">
+                        <img src="img/Captura de tela 2025-01-04 193437.png" id="card-img1">
+                    </div>
+
+                    <div id="card1">
+                        <img src="img/Captura de tela 2025-01-04 193457.png" id="card-img1">
+                    </div>
+
+                    <div id="card1">
+                        <img src="img/Captura de tela 2025-01-04 193521.png" id="card-img1">
+                    </div>
+
+                    <div id="card1">
+                        <img src="img/Captura de tela 2025-01-04 193618.png" id="card-img1">
+                    </div>
+
+                </div>
+
+                <button class="carousel-btn right" onclick="moveCarousel1(1)">❯</button>
+
+            </div>
+
+        </div><br><br>
+
+        <!-- Aba contato do projeto -->
+        <div id="Contato">
+
+            <div>
+
+                <h1 id="texto-contato">Entre em <span id="destaque">contato conosco</span></h1>
+
+            </div>
+
+            <h2 id="texto-contato2">Faça um orçamento grátis com nossa equipe</h2>
+
+            <div id="social">
+                <button onclick="redirecionarParaPagina4()"><i class="bi bi-whatsapp" id="icon"></i></button>
+                <button onclick="redirecionarParaPagina1()"><i class="bi bi-instagram" id="icon1"></i></button>
+                <button onclick="redirecionarParaPagina2()"><i class="bi bi-google"></i></button>
+                <button onclick="redirecionarParaPagina3()"><i class="bi bi-envelope-paper" id="icon1"></i></button>
+            </div>
+
+        </div>
+
+        <!-- Botão para o topo do projeto -->
+        <button id="botão-topo"><i class="bi bi-arrow-up-circle"></i></button>
+  
+    </main>
+    
+    <!-- Rodapé da página -->
+    <footer>
+
+        <p>&copy; Todos os direitos reservados</p>
+        <p>Desenvolvido por Fabio Guimarães</p>
+
+    </footer>
+
+</body>
+
+</html>
