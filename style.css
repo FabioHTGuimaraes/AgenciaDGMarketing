@@ -1339,7 +1339,7 @@ footer p {
     nav {
         align-items: center;
         margin-top: 1%;
-        font-size: 20px;
+        font-size: 80%;
     }
     
     nav a { 
@@ -1403,7 +1403,7 @@ footer p {
     }
     
     #texto-inicio1 {
-        font-size: 40px;
+        font-size: 80%;
         margin: 1%;
         font-weight: normal;
     }
@@ -1462,7 +1462,7 @@ footer p {
     }
     
     #texto-sobre1 {
-        font-size: 40px;
+        font-size: 80%;
         text-align: justify;
     }
     
@@ -1500,7 +1500,7 @@ footer p {
     }
     
     #texto-serviços1{
-        font-size: 40px;
+        font-size: 80%;
     }
     
     #texto-serviços2{
@@ -1577,7 +1577,7 @@ footer p {
     }
 
     #texto-mapa1 {
-        font-size: 40px;
+        font-size: 90%;
     }
     
     #texto-mapa2 {
@@ -1620,7 +1620,7 @@ footer p {
     }
     
     #texto-depoimentos1{
-        font-size: 40px;
+        font-size: 80%;
     }
     
     #texto-depoimentos2{
@@ -1679,7 +1679,7 @@ footer p {
     }
     
     #texto-contato1 {
-        font-size: 40px;
+        font-size: 80%;
     }
     
     #texto-contato2 {
@@ -1774,7 +1774,7 @@ footer p {
     nav {
         align-items: center;
         margin-top: 1%;
-        font-size: 15px;
+        font-size: 80%;
     }
     
     nav a { 
@@ -1840,7 +1840,7 @@ footer p {
     }
     
     #texto-inicio1 {
-        font-size: 15px;
+        font-size: 80%;
         margin: 2%;
         font-weight: normal;
     }
@@ -1900,7 +1900,7 @@ footer p {
     }
     
     #texto-sobre1 {
-        font-size: 20px;
+        font-size: 80%;
         margin-top: 7%;
         text-align: center;
     }
@@ -1939,7 +1939,7 @@ footer p {
     }
     
     #texto-serviços1{
-        font-size: 15px;
+        font-size: 80%;
     }
     
     #texto-serviços2{
@@ -1987,7 +1987,7 @@ footer p {
     }
 
     #texto-mapa1 {
-        font-size: 19px;
+        font-size: 90%;
     }
     
     #texto-mapa2 {
@@ -2030,7 +2030,7 @@ footer p {
     }
     
     #texto-depoimentos1{
-        font-size: 20px;
+        font-size: 80%;
     }
     
     #texto-depoimentos2{
@@ -2064,6 +2064,7 @@ footer p {
         text-align: center;
         align-items: center;
         margin: 5%;
+        font-size: 80%;
     }
     
     #texto-contato1 {
@@ -2115,6 +2116,7 @@ footer p {
         width: 100%;      
         z-index: 1000;    
         text-align: center;
+        font-size: 80%;
     }
     
     footer p {
