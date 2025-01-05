@@ -120,18 +120,17 @@ window.onload = function() {
     // Mostrar o botão quando rolar para baixo
     window.onscroll = function () {
         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-            botaoTopo.style.display = "block"; // Exibe o botão
+            botaoTopo.style.display = "block";
         } else {
-            botaoTopo.style.display = "none"; // Esconde o botão
+            botaoTopo.style.display = "none"; 
         }
     };
 
     // Função para rolar até o topo quando o botão for clicado
     botaoTopo.addEventListener("click", function () {
-        // Rolagem suave até o topo
         window.scrollTo({
             top: 0,
-            behavior: "smooth" // Rolagem suave
+            behavior: "smooth" 
         });
     });
 };

@@ -28,7 +28,7 @@ header {
 nav {
     align-items: center;
     margin-top: 1%;
-    font-size: 20px;
+    font-size: 135%;
 }
 
 nav a { 
@@ -44,6 +44,7 @@ nav a:hover {
 
 #img-centro {
     text-align: center;
+    width: 90%;
 }
 
 /* Adiciona estilo para a aba Inicio do projeto */
@@ -73,7 +74,7 @@ nav a:hover {
     padding: 1% 5%;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 90%;
     font-weight: bold;
     cursor: pointer;
     margin: 2%;
@@ -92,13 +93,13 @@ nav a:hover {
 }
 
 #texto-inicio1 {
-    font-size: 40px;
+    font-size: 230%;
     margin: 1%;
     font-weight: normal;
 }
 
 #texto-inicio2 {
-    font-size: 35px;
+    font-size: 230%;
     margin: 0%;
     overflow: hidden;
     border-right: 2px solid #0cc0df;
@@ -107,7 +108,7 @@ nav a:hover {
 }
 
 #texto-inicio3 {
-    font-size: 14px;
+    font-size: 90%;
     margin: 0;
     text-align: justify;
 }
@@ -122,7 +123,7 @@ nav a:hover {
         width: 0;
     }
     to {
-        width: 50%;
+        width: 52.5%;
     }
 }
 
@@ -153,13 +154,13 @@ nav a:hover {
 }
 
 #texto-sobre1 {
-    font-size: 40px;
+    font-size: 200%;
     text-align: justify;
 }
 
 #texto-sobre2 {
     text-align: justify;
-    font-size: 17px;
+    font-size: 110%;
     margin-top: 12px;
     font-weight: normal;
 }
@@ -178,9 +179,9 @@ nav a:hover {
 }
 
 #Serviços #carousel-container {
-    width: 1350px; 
+    width: 100%; 
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
 }
 
@@ -190,19 +191,18 @@ nav a:hover {
 }
 
 #texto-serviços1{
-    font-size: 40px;
+    font-size: 200%;
 }
 
 #texto-serviços2{
-    font-size: 20px;
+    font-size: 110%;
     font-weight: normal;
 }
 
 #card {
     margin-top: 30px;
     margin-right: 5px;
-    flex: 0 0 337px;
-    width: 400px;
+    flex: 0 0 24%;
     border: 3px solid #ffffff;
     background-color: #ffffff;
     color: #143b6d;
@@ -216,21 +216,13 @@ nav a:hover {
 }
 
 #card-titulo {
-    font-size: 20px;
+    font-size: 100%;
     margin: 5%;
 }
 
 #card-texto {
-    font-size: 15px;
+    font-size: 90%;
     margin: 5%;
-    text-align: justify;
-    font-weight: normal;
-}
-
-#card-conhecimentos {
-    font-size: 15px;
-    margin: 10px;
-    margin-top: 20px;
     text-align: justify;
     font-weight: normal;
 }
@@ -243,7 +235,6 @@ nav a:hover {
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 18px;
     z-index: 10;
     padding: 10px;
 }
@@ -263,21 +254,21 @@ nav a:hover {
 /* Adiciona estilo para a aba de mapa */
 
 #texto-mapa1 {
-    font-size: 40px;
+    font-size: 200%;
 }
 
 #texto-mapa2 {
-    font-size: 20px;
+    font-size: 110%;
     font-weight: normal;
 }
 
 #texto-mapa3 {
-    font-size: 12px;
+    font-size: 70%;
     font-weight: normal;
 }
 
 #img-mapa {
-    width: 45%;
+    width: 50%;
     margin: 2%;
 }
 
@@ -289,12 +280,11 @@ nav a:hover {
 
 #Depoimentos {
     align-items: flex-start;
-    margin: 5%;
-    margin-bottom: 7%;
+    margin: 15%;
 }
 
 #Depoimentos #carousel-container1 {
-    width: 1350px; 
+    width: 100%; 
     overflow: hidden;
     margin: 0 auto;
     position: relative;
@@ -306,19 +296,18 @@ nav a:hover {
 }
 
 #texto-depoimentos1{
-    font-size: 40px;
+    font-size: 200%;
 }
 
 #texto-depoimentos2{
-    font-size: 20px;
+    font-size: 110%;
     font-weight: normal;
 }
 
 #card1 {
     margin-top: 30px;
     margin-right: 5px;
-    flex: 0 0 337px;
-    width: 400px;
+    flex: 0 0 24%;
     border: 3px solid #ffffff;
     background-color: #ffffff;
     color: #143b6d;
@@ -327,19 +316,17 @@ nav a:hover {
 
 #card-img1 {
     width: 100%;
-    border-top-left-radius: 18px;
+    border-top-left-radius: 10px;
     border-top-right-radius: 18px;
 }
 
 .carousel-btn {
     position: absolute;
-    top: 50%;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 18px;
     z-index: 10;
     padding: 10px;
 }
@@ -365,11 +352,11 @@ nav a:hover {
 }
 
 #texto-contato1 {
-    font-size: 40px;
+    font-size: 200%;
 }
 
 #texto-contato2 {
-    font-size: 20px;
+    font-size: 110%;
     font-weight: normal;
 }
 
@@ -382,7 +369,7 @@ nav a:hover {
     background: none;
     border: none;
     color: #ffffff;
-    font-size: 70px;
+    font-size: 400%;
     cursor: pointer;
 }
 
@@ -463,7 +450,7 @@ footer p {
     nav {
         align-items: center;
         margin-top: 1%;
-        font-size: 20px;
+        font-size: 130%;
     }
     
     nav a { 
@@ -479,6 +466,7 @@ footer p {
     
     #img-centro {
         text-align: center;
+        font-size: 200%;
     }
     
     /* Adiciona estilo para a aba Inicio do projeto */
@@ -508,7 +496,7 @@ footer p {
         padding: 1% 5%;
         text-align: center;
         display: inline-block;
-        font-size: 16px;
+        font-size: 100%;
         font-weight: bold;
         cursor: pointer;
         margin: 2%;
@@ -527,13 +515,13 @@ footer p {
     }
     
     #texto-inicio1 {
-        font-size: 40px;
+        font-size: 190%;
         margin: 1%;
         font-weight: normal;
     }
     
     #texto-inicio2 {
-        font-size: 35px;
+        font-size: 200%;
         margin: 0%;
         overflow: hidden;
         border-right: 2px solid #0cc0df;
@@ -542,7 +530,7 @@ footer p {
     }
     
     #texto-inicio3 {
-        font-size: 14px;
+        font-size: 110%;
         margin: 0;
         text-align: justify;
     }
@@ -557,7 +545,7 @@ footer p {
             width: 0;
         }
         to {
-            width: 62.5%;
+            width: 57%;
         }
     }
     
@@ -589,13 +577,13 @@ footer p {
     }
     
     #texto-sobre1 {
-        font-size: 40px;
+        font-size: 200%;
         text-align: justify;
     }
     
     #texto-sobre2 {
         text-align: justify;
-        font-size: 17px;
+        font-size: 110%;
         margin-top: 12px;
         font-weight: normal;
     }
@@ -615,7 +603,7 @@ footer p {
     }
     
     #Serviços #carousel-container {
-        width: 1350px; 
+        width: 100%; 
         overflow: hidden;
         margin: 0 auto;
         position: relative;
@@ -627,19 +615,18 @@ footer p {
     }
     
     #texto-serviços1{
-        font-size: 40px;
+        font-size: 200%;
     }
     
     #texto-serviços2{
-        font-size: 20px;
+        font-size: 110%;
         font-weight: normal;
     }
     
     #card {
         margin-top: 30px;
         margin-right: 5px;
-        flex: 0 0 337px;
-        width: 400px;
+        flex: 0 0 24%;
         border: 3px solid #ffffff;
         background-color: #ffffff;
         color: #143b6d;
@@ -653,23 +640,28 @@ footer p {
     }
     
     #card-titulo {
-        font-size: 20px;
+        font-size: 100%;
         margin: 5%;
     }
     
     #card-texto {
-        font-size: 15px;
+        font-size: 70%;
         margin: 5%;
         text-align: justify;
         font-weight: normal;
     }
-    
-    #card-conhecimentos {
-        font-size: 15px;
-        margin: 10px;
-        margin-top: 20px;
-        text-align: justify;
-        font-weight: normal;
+
+    #button-serviço {
+        background-color: #ffffff;
+        color: #143b6d;
+        border: none;
+        border-radius: 50px;
+        text-align: center;
+        display: inline-block;
+        font-size: 90%;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 5%;
     }
     
     .carousel-btn {
@@ -704,16 +696,16 @@ footer p {
     }
 
     #texto-mapa1 {
-        font-size: 40px;
+        font-size: 200%;
     }
     
     #texto-mapa2 {
-        font-size: 20px;
+        font-size: 110%;
         font-weight: normal;
     }
     
     #texto-mapa3 {
-        font-size: 12px;
+        font-size: 80%;
         font-weight: normal;
     }
     
@@ -735,7 +727,7 @@ footer p {
     }
     
     #Depoimentos #carousel-container1 {
-        width: 1350px; 
+        width: 100%; 
         overflow: hidden;
         margin: 0 auto;
         position: relative;
@@ -747,19 +739,18 @@ footer p {
     }
     
     #texto-depoimentos1{
-        font-size: 40px;
+        font-size: 200%;
     }
     
     #texto-depoimentos2{
-        font-size: 20px;
+        font-size: 110%;
         font-weight: normal;
     }
     
     #card1 {
         margin-top: 30px;
         margin-right: 5px;
-        flex: 0 0 337px;
-        width: 400px;
+        flex: 0 0 24%;
         border: 3px solid #ffffff;
         background-color: #ffffff;
         color: #143b6d;
@@ -806,11 +797,11 @@ footer p {
     }
     
     #texto-contato1 {
-        font-size: 80%;
+        font-size: 200%;
     }
     
     #texto-contato2 {
-        font-size: 10px;
+        font-size: 110%;
         font-weight: normal;
     }
     
@@ -823,7 +814,7 @@ footer p {
         background: none;
         border: none;
         color: #ffffff;
-        font-size: 150%;
+        font-size: 400%;
         cursor: pointer;
     }
     
@@ -848,7 +839,7 @@ footer p {
         background-color: #143b6d; 
         color: white; 
         border: none; 
-        font-size: 200%;
+        font-size: 150%;
         cursor: pointer;
         transition: opacity 0.3s ease;
     }
@@ -870,7 +861,7 @@ footer p {
         width: 100%;      
         z-index: 1000;    
         text-align: center;
-        font-size: 40%;
+        font-size: 90%;
     }
     
     footer p {
@@ -902,7 +893,7 @@ footer p {
     nav {
         align-items: center;
         margin-top: 1%;
-        font-size: 20px;
+        font-size: 120%;
     }
     
     nav a { 
@@ -918,6 +909,7 @@ footer p {
     
     #img-centro {
         text-align: center;
+        width: 200%;
     }
     
     /* Adiciona estilo para a aba Inicio do projeto */
@@ -947,7 +939,7 @@ footer p {
         padding: 1% 5%;
         text-align: center;
         display: inline-block;
-        font-size: 16px;
+        font-size: 120%;
         font-weight: bold;
         cursor: pointer;
         margin: 2%;
@@ -966,13 +958,13 @@ footer p {
     }
     
     #texto-inicio1 {
-        font-size: 40px;
+        font-size: 190%;
         margin: 1%;
         font-weight: normal;
     }
     
     #texto-inicio2 {
-        font-size: 80%;
+        font-size: 200%;
         margin: 0%;
         overflow: hidden;
         border-right: 2px solid #0cc0df;
@@ -981,7 +973,7 @@ footer p {
     }
     
     #texto-inicio3 {
-        font-size: 14px;
+        font-size: 80%;
         margin: 0;
         text-align: justify;
     }
@@ -996,7 +988,7 @@ footer p {
             width: 0;
         }
         to {
-            width: 100%;
+            width: 81%;
         }
     }
     
@@ -1028,13 +1020,13 @@ footer p {
     }
     
     #texto-sobre1 {
-        font-size: 40px;
+        font-size: 180%;
         text-align: justify;
     }
     
     #texto-sobre2 {
         text-align: justify;
-        font-size: 17px;
+        font-size: 75%;
         margin-top: 12px;
         font-weight: normal;
     }
@@ -1054,7 +1046,7 @@ footer p {
     }
     
     #Serviços #carousel-container {
-        width: 1350px; 
+        width: 100%; 
         overflow: hidden;
         margin: 0 auto;
         position: relative;
@@ -1066,19 +1058,18 @@ footer p {
     }
     
     #texto-serviços1{
-        font-size: 40px;
+        font-size: 200%;
     }
     
     #texto-serviços2{
-        font-size: 20px;
+        font-size: 110%;
         font-weight: normal;
     }
     
     #card {
         margin-top: 30px;
         margin-right: 5px;
-        flex: 0 0 337px;
-        width: 400px;
+        flex: 0 0 24%;
         border: 3px solid #ffffff;
         background-color: #ffffff;
         color: #143b6d;
@@ -1092,23 +1083,28 @@ footer p {
     }
     
     #card-titulo {
-        font-size: 20px;
+        font-size: 86%;
         margin: 5%;
     }
     
     #card-texto {
-        font-size: 15px;
+        font-size: 70%;
         margin: 5%;
         text-align: justify;
         font-weight: normal;
     }
     
-    #card-conhecimentos {
-        font-size: 15px;
-        margin: 10px;
-        margin-top: 20px;
-        text-align: justify;
-        font-weight: normal;
+    #button-serviço {
+        background-color: #ffffff;
+        color: #143b6d;
+        border: none;
+        border-radius: 50px;
+        text-align: center;
+        display: inline-block;
+        font-size: 90%;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 5%;
     }
     
     .carousel-btn {
@@ -1119,7 +1115,6 @@ footer p {
         color: white;
         border: none;
         cursor: pointer;
-        font-size: 18px;
         z-index: 10;
         padding: 10px;
     }
@@ -1143,21 +1138,21 @@ footer p {
     }
 
     #texto-mapa1 {
-        font-size: 40px;
+        font-size: 200%;
     }
     
     #texto-mapa2 {
-        font-size: 20px;
+        font-size: 110%;
         font-weight: normal;
     }
     
     #texto-mapa3 {
-        font-size: 12px;
+        font-size: 50%;
         font-weight: normal;
     }
     
     #img-mapa {
-        width: 70%;
+        width: 100%;
         margin: 2%;
     }
     
@@ -1174,7 +1169,7 @@ footer p {
     }
     
     #Depoimentos #carousel-container1 {
-        width: 1350px; 
+        width: 100%; 
         overflow: hidden;
         margin: 0 auto;
         position: relative;
@@ -1186,19 +1181,18 @@ footer p {
     }
     
     #texto-depoimentos1{
-        font-size: 40px;
+        font-size: 200%;
     }
     
     #texto-depoimentos2{
-        font-size: 20px;
+        font-size: 110%;
         font-weight: normal;
     }
     
     #card1 {
         margin-top: 30px;
         margin-right: 5px;
-        flex: 0 0 337px;
-        width: 400px;
+        flex: 0 0 24%;
         border: 3px solid #ffffff;
         background-color: #ffffff;
         color: #143b6d;
@@ -1245,11 +1239,11 @@ footer p {
     }
     
     #texto-contato1 {
-        font-size: 80%;
+        font-size: 200%;
     }
     
     #texto-contato2 {
-        font-size: 10px;
+        font-size: 110%;
         font-weight: normal;
     }
     
@@ -1262,7 +1256,7 @@ footer p {
         background: none;
         border: none;
         color: #ffffff;
-        font-size: 150%;
+        font-size: 400%;
         cursor: pointer;
     }
     
@@ -1287,7 +1281,7 @@ footer p {
         background-color: #143b6d; 
         color: white; 
         border: none; 
-        font-size: 200%;
+        font-size: 150%;
         cursor: pointer;
         transition: opacity 0.3s ease;
     }
@@ -1309,7 +1303,7 @@ footer p {
         width: 100%;      
         z-index: 1000;    
         text-align: center;
-        font-size: 40%;
+        font-size: 60%;
     }
     
     footer p {
@@ -1334,443 +1328,7 @@ footer p {
     /* Adiciona estilo para o header */
     
     header {
-        margin: 2%;
-        text-align: center;
-    }
-    
-    nav {
-        align-items: center;
-        margin-top: 1%;
-        font-size: 80%;
-    }
-    
-    nav a { 
-        color: white; 
-        text-decoration: none; 
-        transition: color 0.3s ease;
-    } 
-    
-    nav a:hover { 
-        text-decoration: none; 
-        color: #0cc0df;
-    }
-    
-    #img-centro {
-        text-align: center;
-    }
-    
-    /* Adiciona estilo para a aba Inicio do projeto */
-    
-    #Inicio {
-        display: flex;
-        justify-content: center; 
-        align-items: center;
         margin: 10%;
-    }
-    
-    
-    #conteudo-inicio {
-        display: flex;
-        flex-direction: column; 
-        align-items: center; 
-        justify-content: center;
-        text-align: center;
-        flex: 1; 
-    }
-    
-    #button-inicio {
-        background-color: #ffffff;
-        color: #143b6d;
-        border: none;
-        border-radius: 50px;
-        padding: 1% 5%;
-        text-align: center;
-        display: inline-block;
-        font-size: 16px;
-        font-weight: bold;
-        cursor: pointer;
-        margin: 2%;
-    }
-    
-    #clientes-info {
-        display: flex; 
-        align-items: center; 
-        justify-content: center; 
-        margin-bottom: 5%;
-    }
-    
-    #img-clientes {
-        width: 30%; 
-        margin-right: 2%; 
-    }
-    
-    #texto-inicio1 {
-        font-size: 10px;
-        margin: 1%;
-        font-weight: normal;
-    }
-    
-    #texto-inicio2 {
-        font-size: 80%;
-        margin: 0%;
-        overflow: hidden;
-        border-right: 2px solid #0cc0df;
-        white-space: nowrap;
-        animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite; /* Aplica as animações */
-    }
-    
-    #texto-inicio3 {
-        font-size: 14px;
-        margin: 0;
-        text-align: justify;
-    }
-    
-    #destaque {
-        color: #0cc0df;
-        font-weight: bold;
-    }
-    
-    @keyframes typing {
-        from {
-            width: 0;
-        }
-        to {
-            width: 100%;
-        }
-    }
-    
-    @keyframes blink {
-        50% {
-            border-color: transparent;
-        }
-    }
-    
-    
-    
-    
-    
-    /* Adiciona estilo para a aba sobre do projeto */
-    
-    #Sobre {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    
-    #img-eu {
-        width: 50%;
-        margin-top: 3%;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    }
-    
-    #texto-sobre1 {
-        font-size: 80%;
-        text-align: justify;
-    }
-    
-    #texto-sobre2 {
-        text-align: justify;
-        font-size: 17px;
-        margin-top: 12px;
-        font-weight: normal;
-    }
-    
-    
-    
-    
-    
-    /* Adiciona estilo para a aba de Serviços */
-    
-    
-    #Serviços {
-        align-items: flex-start;
-        margin: 5%;
-        margin-top: 20%;
-        margin-bottom: 20%;
-    }
-    
-    #Serviços #carousel-container {
-        width: 1350px; 
-        overflow: hidden;
-        margin: 0 auto;
-        position: relative;
-    }
-    
-    #Serviços #carousel {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
-    #texto-serviços1{
-        font-size: 80%;
-    }
-    
-    #texto-serviços2{
-        font-size: 20px;
-        font-weight: normal;
-    }
-    
-    #card {
-        margin-top: 30px;
-        margin-right: 5px;
-        flex: 0 0 337px;
-        width: 400px;
-        border: 3px solid #ffffff;
-        background-color: #ffffff;
-        color: #143b6d;
-        border-radius: 20px;
-    }
-    
-    #card-img {
-        width: 100%;
-        border-top-left-radius: 18px;
-        border-top-right-radius: 18px;
-    }
-    
-    #card-titulo {
-        font-size: 20px;
-        margin: 5%;
-    }
-    
-    #card-texto {
-        font-size: 15px;
-        margin: 5%;
-        text-align: justify;
-        font-weight: normal;
-    }
-    
-    #card-conhecimentos {
-        font-size: 15px;
-        margin: 10px;
-        margin-top: 20px;
-        text-align: justify;
-        font-weight: normal;
-    }
-    
-    .carousel-btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        cursor: pointer;
-        font-size: 18px;
-        z-index: 10;
-        padding: 10px;
-    }
-    
-    .carousel-btn.left {
-        left: 0;
-    }
-    
-    .carousel-btn.right {
-        right: 0;
-    }
-    
-    
-    
-    
-    
-    /* Adiciona estilo para a aba de mapa */
-    
-    #Mapa {
-        margin: 10%;
-    }
-
-    #texto-mapa1 {
-        font-size: 90%;
-    }
-    
-    #texto-mapa2 {
-        font-size: 20px;
-        font-weight: normal;
-    }
-    
-    #texto-mapa3 {
-        font-size: 12px;
-        font-weight: normal;
-    }
-    
-    #img-mapa {
-        width: 70%;
-        margin: 2%;
-    }
-    
-    
-    
-    
-    
-    /* Adiciona estilo para a aba de Depoimentos */
-    
-    #Depoimentos {
-        align-items: flex-start;
-        margin: 5%;
-        margin-bottom: 7%;
-    }
-    
-    #Depoimentos #carousel-container1 {
-        width: 1350px; 
-        overflow: hidden;
-        margin: 0 auto;
-        position: relative;
-    }
-    
-    #Depoimentos #carousel1 {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
-    #texto-depoimentos1{
-        font-size: 80%;
-    }
-    
-    #texto-depoimentos2{
-        font-size: 20px;
-        font-weight: normal;
-    }
-    
-    #card1 {
-        margin-top: 30px;
-        margin-right: 5px;
-        flex: 0 0 337px;
-        width: 400px;
-        border: 3px solid #ffffff;
-        background-color: #ffffff;
-        color: #143b6d;
-        border-radius: 20px;
-    }
-    
-    #card-img1 {
-        width: 100%;
-        border-top-left-radius: 18px;
-        border-top-right-radius: 18px;
-    }
-    
-    .carousel-btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        cursor: pointer;
-        font-size: 18px;
-        z-index: 10;
-        padding: 10px;
-    }
-    
-    .carousel-btn.left {
-        left: 0;
-    }
-    
-    .carousel-btn.right {
-        right: 0;
-    }
-    
-    
-    
-    
-    
-    /* Adiciona estilo para a aba Contato do projeto */
-    
-    #Contato {
-        text-align: center;
-        align-items: center;
-        margin: 5%;
-    }
-    
-    #texto-contato1 {
-        font-size: 80%;
-    }
-    
-    #texto-contato2 {
-        font-size: 10px;
-        font-weight: normal;
-    }
-    
-    #social {
-        list-style: none;
-        margin-top: 5%; 
-    }
-    
-    #social button {
-        background: none;
-        border: none;
-        color: #ffffff;
-        font-size: 150%;
-        cursor: pointer;
-    }
-    
-    #social button:hover {
-        color: #0cc0df;
-    }
-    
-    #social button:focus {
-        outline: none;
-    }
-    
-    
-    
-    
-    
-    /* Adiciona estilo para o botão de voltar ao topo do projeto */
-    
-    #botão-topo {
-        position: fixed; 
-        bottom: 8%; 
-        right: 2%; 
-        background-color: #143b6d; 
-        color: white; 
-        border: none; 
-        font-size: 200%;
-        cursor: pointer;
-        transition: opacity 0.3s ease;
-    }
-    
-    
-    
-    
-    
-    
-    /* Adiciona estilo para o rodapé do projeto */
-    
-    footer {
-        color: #fff;
-        display: flex;
-        justify-content: space-between;
-        padding: 0.3%;  
-        bottom: 0;        
-        left: 0;          
-        width: 100%;      
-        z-index: 1000;    
-        text-align: center;
-        font-size: 40%;
-    }
-    
-    footer p {
-        margin-right: 1%;
-        margin-left: 1%;
-    }
-
-}
-
-/* Dispositivos (até 480px) */
-@media only screen and (max-width: 480px) {
-
-    body {
-        overflow-x: hidden;
-        text-align: center;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-    }
-    
-    
-    /* Adiciona estilo para o header */
-    
-    header {
-        margin: 5%;
         text-align: center;
     }
     
@@ -1793,7 +1351,7 @@ footer p {
     
     #imgheader {
         text-align: center;
-        width: 90%;
+        width: 100%;
     }
     
     /* Adiciona estilo para a aba Inicio do projeto */
@@ -1802,7 +1360,7 @@ footer p {
         display: flex;
         justify-content: center; 
         align-items: center;
-        margin: 10%;
+        margin: 5%;
     }
     
     
@@ -1823,7 +1381,7 @@ footer p {
         padding: 1% 5%;
         text-align: center;
         display: inline-block;
-        font-size: 12px;
+        font-size: 80%;
         font-weight: bold;
         cursor: pointer;
         margin: 2%;
@@ -1843,13 +1401,13 @@ footer p {
     }
     
     #texto-inicio1 {
-        font-size: 10px;
+        font-size: 90%;
         margin: 2%;
         font-weight: normal;
     }
     
     #texto-inicio2 {
-        font-size: 80%;
+        font-size: 100%;
         margin: 0%;
         overflow: hidden;
         border-right: 2px solid #0cc0df;
@@ -1858,7 +1416,7 @@ footer p {
     }
     
     #texto-inicio3 {
-        font-size: 10px;
+        font-size: 60%;
         margin: 1%;
         margin-top: 3%;
         text-align: justify;
@@ -1897,20 +1455,20 @@ footer p {
     }
     
     #img-eu {
-        width: 60%;
+        width: 100%;
         margin: 0%;
         box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.5);
     }
     
     #texto-sobre1 {
-        font-size: 80%;
+        font-size: 100%;
         margin-top: 7%;
         text-align: center;
     }
     
     #texto-sobre2 {
         text-align: center;
-        font-size: 10px;
+        font-size: 50%;
         margin-top: 12px;
         text-align: justify;
     }
@@ -1942,11 +1500,11 @@ footer p {
     }
     
     #texto-serviços1{
-        font-size: 80%;
+        font-size: 100%;
     }
     
     #texto-serviços2{
-        font-size: 10px;
+        font-size: 50%;
         font-weight: normal;
     }
     
@@ -1967,12 +1525,12 @@ footer p {
     }
     
     #card-titulo {
-        font-size: 15px;
+        font-size: 100%;
         margin: 5%;
     }
     
     #card-texto {
-        font-size: 12px;
+        font-size: 95%;
         margin: 5%;
         text-align: justify;
         font-weight: normal;
@@ -1986,20 +1544,20 @@ footer p {
     /* Adiciona estilo para a aba de mapa */
     
     #Mapa {
-        margin: 10%;
+        margin: 5%;
     }
 
     #texto-mapa1 {
-        font-size: 90%;
+        font-size: 100%;
     }
     
     #texto-mapa2 {
-        font-size: 10px;
+        font-size: 50%;
         font-weight: normal;
     }
     
     #texto-mapa3 {
-        font-size: 8px;
+        font-size: 10%;
         font-weight: normal;
     }
     
@@ -2017,7 +1575,6 @@ footer p {
     #Depoimentos {
         align-items: flex-start;
         margin: 5%;
-        margin-bottom: 7%;
     }
     
     #Depoimentos #carousel-container1 {
@@ -2033,11 +1590,11 @@ footer p {
     }
     
     #texto-depoimentos1{
-        font-size: 80%;
+        font-size: 100%;
     }
     
     #texto-depoimentos2{
-        font-size: 10px;
+        font-size: 50%;
         font-weight: normal;
     }
     
@@ -2045,7 +1602,6 @@ footer p {
         margin-top: 30px;
         margin-right: 5px;
         flex: 0 0 95%;
-        width: 400px;
         border: 3px solid #ffffff;
         background-color: #ffffff;
         color: #143b6d;
@@ -2072,11 +1628,11 @@ footer p {
     }
     
     #texto-contato1 {
-        font-size: 80%;
+        font-size: 100%;
     }
     
     #texto-contato2 {
-        font-size: 10px;
+        font-size: 50%;
         font-weight: normal;
     }
     
@@ -2120,7 +1676,380 @@ footer p {
         width: 100%;      
         z-index: 1000;    
         text-align: center;
-        font-size: 40%;
+        font-size: 50%;
+    }
+    
+    footer p {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+}
+
+/* Dispositivos (até 480px) */
+@media only screen and (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    /* Adiciona estilo para o header */
+    
+    header {
+        margin: 10%;
+        text-align: center;
+    }
+    
+    nav {
+        align-items: center;
+        margin-top: 1%;
+        font-size: 80%;
+    }
+    
+    nav a { 
+        color: white; 
+        text-decoration: none; 
+        transition: color 0.3s ease;
+    } 
+    
+    nav a:hover { 
+        text-decoration: none; 
+        color: #0cc0df;
+    }
+    
+    #imgheader {
+        text-align: center;
+        width: 100%;
+    }
+    
+    /* Adiciona estilo para a aba Inicio do projeto */
+    
+    #Inicio {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin: 5%;
+    }
+    
+    
+    #conteudo-inicio {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+        flex: 1; 
+    }
+    
+    #button-inicio {
+        background-color: #ffffff;
+        color: #143b6d;
+        border: none;
+        border-radius: 50px;
+        padding: 1% 5%;
+        text-align: center;
+        display: inline-block;
+        font-size: 80%;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 2%;
+    }
+    
+    #clientes-info {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        margin-bottom: 5%;
+    }
+    
+    #img-clientes {
+        width: 25%;
+        margin-top: 3%;
+        margin-right: 2%; 
+    }
+    
+    #texto-inicio1 {
+        font-size: 90%;
+        margin: 2%;
+        font-weight: normal;
+    }
+    
+    #texto-inicio2 {
+        font-size: 100%;
+        margin: 0%;
+        overflow: hidden;
+        border-right: 2px solid #0cc0df;
+        white-space: nowrap;
+        animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite; /* Aplica as animações */
+    }
+    
+    #texto-inicio3 {
+        font-size: 60%;
+        margin: 1%;
+        margin-top: 3%;
+        text-align: justify;
+    }
+    
+    #destaque {
+        color: #0cc0df;
+        font-weight: bold;
+    }
+    
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+    
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
+    }
+    
+    
+    
+    
+    
+    /* Adiciona estilo para a aba sobre do projeto */
+    
+    #Sobre {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20%;
+    }
+    
+    #img-eu {
+        width: 100%;
+        margin: 0%;
+        box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.5);
+    }
+    
+    #texto-sobre1 {
+        font-size: 100%;
+        margin-top: 7%;
+        text-align: center;
+    }
+    
+    #texto-sobre2 {
+        text-align: center;
+        font-size: 50%;
+        margin-top: 12px;
+        text-align: justify;
+    }
+    
+    
+    
+    
+    
+    /* Adiciona estilo para a aba de Serviços */
+    
+    
+    #Serviços {
+        align-items: flex-start;
+        margin: 5%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    
+    #Serviços #carousel-container {
+        width: 90%; 
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    #Serviços #carousel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    #texto-serviços1{
+        font-size: 100%;
+    }
+    
+    #texto-serviços2{
+        font-size: 50%;
+        font-weight: normal;
+    }
+    
+    #card {
+        margin-top: 30px;
+        margin-right: 5px;
+        flex: 0 0 95%;
+        border: 3px solid #ffffff;
+        background-color: #ffffff;
+        color: #143b6d;
+        border-radius: 20px;
+    }
+    
+    #card-img {
+        width: 100%;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+    
+    #card-titulo {
+        font-size: 100%;
+        margin: 5%;
+    }
+    
+    #card-texto {
+        font-size: 95%;
+        margin: 5%;
+        text-align: justify;
+        font-weight: normal;
+    }
+
+    
+    
+    
+    
+    
+    /* Adiciona estilo para a aba de mapa */
+    
+    #Mapa {
+        margin: 5%;
+    }
+
+    #texto-mapa1 {
+        font-size: 100%;
+    }
+    
+    #texto-mapa2 {
+        font-size: 50%;
+        font-weight: normal;
+    }
+    
+    #texto-mapa3 {
+        font-size: 10%;
+        font-weight: normal;
+    }
+    
+    #img-mapa {
+        width: 100%;
+        margin: 1%;
+    }
+    
+    
+    
+    
+    
+    /* Adiciona estilo para a aba de Depoimentos */
+    
+    #Depoimentos {
+        align-items: flex-start;
+        margin: 5%;
+    }
+    
+    #Depoimentos #carousel-container1 {
+        width: 90%; 
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    #Depoimentos #carousel1 {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    #texto-depoimentos1{
+        font-size: 100%;
+    }
+    
+    #texto-depoimentos2{
+        font-size: 50%;
+        font-weight: normal;
+    }
+    
+    #card1 {
+        margin-top: 30px;
+        margin-right: 5px;
+        flex: 0 0 95%;
+        border: 3px solid #ffffff;
+        background-color: #ffffff;
+        color: #143b6d;
+        border-radius: 20px;
+    }
+    
+    #card-img1 {
+        width: 100%;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+    
+    
+    
+    
+    
+    /* Adiciona estilo para a aba Contato do projeto */
+    
+    #Contato {
+        text-align: center;
+        align-items: center;
+        margin: 5%;
+        font-size: 80%;
+    }
+    
+    #texto-contato1 {
+        font-size: 100%;
+    }
+    
+    #texto-contato2 {
+        font-size: 50%;
+        font-weight: normal;
+    }
+    
+    #social {
+        list-style: none;
+        margin-top: 5%; 
+    }
+    
+    #social button {
+        background: none;
+        border: none;
+        color: #ffffff;
+        font-size: 150%;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    
+    /* Adiciona estilo para o botão de voltar ao topo do projeto */
+    
+    #botão-topo {
+    display: none;
+    }
+    
+    
+    
+    
+    
+    
+    /* Adiciona estilo para o rodapé do projeto */
+    
+    footer {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        bottom: 0;        
+        left: 0;          
+        width: 100%;      
+        z-index: 1000;    
+        text-align: center;
+        font-size: 50%;
     }
     
     footer p {
