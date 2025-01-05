@@ -435,7 +435,10 @@ footer p {
     margin-right: 0.5%;
 }
 
-
+#clique-footer:hover{
+    color: #b1d330;
+    cursor: pointer;
+}  
 
 
 
@@ -864,22 +867,8 @@ footer p {
     
     /* Adiciona estilo para o rodapé do projeto */
     
-    footer {
-        color: #fff;
-        display: flex;
-        justify-content: space-between;
-        padding: 0.3%;  
-        bottom: 0;        
-        left: 0;          
-        width: 100%;      
-        z-index: 1000;    
-        text-align: center;
-        font-size: 90%;
-    }
-    
-    footer p {
-        margin-right: 1%;
-        margin-left: 1%;
+    footer {  
+        font-size: 50%;
     }
 
 }
@@ -1306,22 +1295,8 @@ footer p {
     
     /* Adiciona estilo para o rodapé do projeto */
     
-    footer {
-        color: #fff;
-        display: flex;
-        justify-content: space-between;
-        padding: 0.3%;  
-        bottom: 0;        
-        left: 0;          
-        width: 100%;      
-        z-index: 1000;    
-        text-align: center;
-        font-size: 60%;
-    }
-    
-    footer p {
-        margin-right: 1%;
-        margin-left: 1%;
+    footer {  
+        font-size: 50%;
     }
 
 }
@@ -1693,21 +1668,8 @@ footer p {
     
     /* Adiciona estilo para o rodapé do projeto */
     
-    footer {
-        color: #fff;
-        display: flex;
-        justify-content: space-between;
-        bottom: 0;        
-        left: 0;          
-        width: 100%;      
-        z-index: 1000;    
-        text-align: center;
+    footer {  
         font-size: 50%;
-    }
-    
-    footer p {
-        margin-right: 1%;
-        margin-left: 1%;
     }
 
 }
@@ -2079,21 +2041,7 @@ footer p {
     
     /* Adiciona estilo para o rodapé do projeto */
     
-    footer {
-        color: #fff;
-        display: flex;
-        justify-content: space-between;
-        bottom: 0;        
-        left: 0;          
-        width: 100%;      
-        z-index: 1000;    
-        text-align: center;
+    footer {  
         font-size: 50%;
     }
-    
-    footer p {
-        margin-right: 1%;
-        margin-left: 1%;
-    }
-
 }
