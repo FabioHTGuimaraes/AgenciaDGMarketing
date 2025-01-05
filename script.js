@@ -27,43 +27,47 @@ function redirecionarParaPagina4() {
 
 
 // Função para mover cards serviços
-let currentIndex = 0; 
+let currentIndex = 0;
 
 const moveCarousel = (direction) => {
     const carousel = document.getElementById('carousel');
-    const cards = document.querySelectorAll('#card');
+    const cards = document.querySelectorAll('#card'); 
     const totalCards = cards.length;
+    const visibleCards = window.innerWidth <= 768 ? 1 : 4; 
     
-    currentIndex += direction; 
+    currentIndex += direction;
 
     if (currentIndex < 0) {
-        currentIndex = totalCards - 1; 
-    } else if (currentIndex >= totalCards) {
-        currentIndex = 0; 
+        currentIndex = totalCards - visibleCards; 
+    } else if (currentIndex > totalCards - visibleCards) {
+        currentIndex = 0;
     }
 
-    const offset = -currentIndex * 150; 
-    carousel.style.transform = `translateX(${offset}px)`; 
+    const cardWidth = cards[0].offsetWidth; 
+    const offset = -currentIndex * cardWidth;
+    carousel.style.transform = `translateX(${offset}px)`;
 };
 
 // Função para mover cards depoimentos
-let currentIndex1 = 0; 
+let currentIndex1 = 0;
 
 const moveCarousel1 = (direction) => {
     const carousel = document.getElementById('carousel1');
-    const cards = document.querySelectorAll('#card1');
+    const cards = document.querySelectorAll('#card1'); 
     const totalCards = cards.length;
+    const visibleCards = window.innerWidth <= 768 ? 1 : 4; 
     
-    currentIndex += direction; 
+    currentIndex1 += direction;
 
-    if (currentIndex < 0) {
-        currentIndex = totalCards - 1; 
-    } else if (currentIndex >= totalCards) {
-        currentIndex = 0; 
+    if (currentIndex1 < 0) {
+        currentIndex1 = totalCards - visibleCards; 
+    } else if (currentIndex1 > totalCards - visibleCards) {
+        currentIndex1 = 0;
     }
 
-    const offset = -currentIndex * 150; 
-    carousel.style.transform = `translateX(${offset}px)`; 
+    const cardWidth = cards[0].offsetWidth; 
+    const offset = -currentIndex1 * cardWidth;
+    carousel.style.transform = `translateX(${offset}px)`;
 };
 
 

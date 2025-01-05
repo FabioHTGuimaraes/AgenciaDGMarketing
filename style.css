@@ -365,11 +365,11 @@ nav a:hover {
 }
 
 #texto-contato1 {
-    font-size: 80%;
+    font-size: 40px;
 }
 
 #texto-contato2 {
-    font-size: 10px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -407,7 +407,7 @@ nav a:hover {
     background-color: #143b6d; 
     color: white; 
     border: none; 
-    font-size: 200%;
+    font-size: 150%;
     cursor: pointer;
     transition: opacity 0.3s ease;
 }
@@ -2045,6 +2045,7 @@ footer p {
         margin-top: 30px;
         margin-right: 5px;
         flex: 0 0 95%;
+        width: 400px;
         border: 3px solid #ffffff;
         background-color: #ffffff;
         color: #143b6d;
