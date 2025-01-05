@@ -365,11 +365,11 @@ nav a:hover {
 }
 
 #texto-contato1 {
-    font-size: 40px;
+    font-size: 80%;
 }
 
 #texto-contato2 {
-    font-size: 17px;
+    font-size: 10px;
     font-weight: normal;
 }
 
@@ -806,11 +806,11 @@ footer p {
     }
     
     #texto-contato1 {
-        font-size: 40px;
+        font-size: 80%;
     }
     
     #texto-contato2 {
-        font-size: 17px;
+        font-size: 10px;
         font-weight: normal;
     }
     
@@ -1244,11 +1244,11 @@ footer p {
     }
     
     #texto-contato1 {
-        font-size: 40px;
+        font-size: 80%;
     }
     
     #texto-contato2 {
-        font-size: 17px;
+        font-size: 10px;
         font-weight: normal;
     }
     
@@ -1683,7 +1683,7 @@ footer p {
     }
     
     #texto-contato2 {
-        font-size: 17px;
+        font-size: 10px;
         font-weight: normal;
     }
     
@@ -2068,11 +2068,11 @@ footer p {
     }
     
     #texto-contato1 {
-        font-size: 40px;
+        font-size: 80%;
     }
     
     #texto-contato2 {
-        font-size: 17px;
+        font-size: 10px;
         font-weight: normal;
     }
     
