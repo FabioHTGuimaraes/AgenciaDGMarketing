@@ -420,23 +420,21 @@ nav a:hover {
 /* Adiciona estilo para o rodapé do projeto */
 
 footer {
-    color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 0.3%;  
-    bottom: 0;        
-    left: 0;          
-    width: 100%;      
-    z-index: 1000;    
-    text-align: center;
+    align-items: center;
+    padding: 10px 0; 
+    width: 100%; 
+    position: relative; 
+    bottom: 0;
 }
 
 footer p {
-    margin-right: 0.5%;
+    margin: 2%; 
+    padding: 0; 
 }
 
 #clique-footer:hover{
-    color: #b1d330;
     cursor: pointer;
 }  
 
