@@ -823,7 +823,7 @@ footer p {
         background: none;
         border: none;
         color: #ffffff;
-        font-size: 70px;
+        font-size: 150%;
         cursor: pointer;
     }
     
@@ -1261,7 +1261,7 @@ footer p {
         background: none;
         border: none;
         color: #ffffff;
-        font-size: 70px;
+        font-size: 150%;
         cursor: pointer;
     }
     
@@ -1696,7 +1696,7 @@ footer p {
         background: none;
         border: none;
         color: #ffffff;
-        font-size: 70px;
+        font-size: 150%;
         cursor: pointer;
     }
     
@@ -2085,7 +2085,7 @@ footer p {
         background: none;
         border: none;
         color: #ffffff;
-        font-size: 250%;
+        font-size: 150%;
         cursor: pointer;
     }
     
