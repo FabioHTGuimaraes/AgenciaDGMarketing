@@ -227,6 +227,19 @@ nav a:hover {
     font-weight: normal;
 }
 
+#button-serviço {
+    background-color: #ffffff;
+    color: #143b6d;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5%;
+}
+
 .carousel-btn {
     position: absolute;
     top: 50%;
@@ -1536,6 +1549,19 @@ footer p {
         font-weight: normal;
     }
 
+    #button-serviço {
+        background-color: #ffffff;
+        color: #143b6d;
+        border: none;
+        border-radius: 50px;
+        text-align: center;
+        display: inline-block;
+        font-size: 90%;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 5%;
+    }
+
     
     
     
@@ -1907,6 +1933,19 @@ footer p {
         margin: 5%;
         text-align: justify;
         font-weight: normal;
+    }
+
+    #button-serviço {
+        background-color: #ffffff;
+        color: #143b6d;
+        border: none;
+        border-radius: 50px;
+        text-align: center;
+        display: inline-block;
+        font-size: 90%;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 5%;
     }
 
     
