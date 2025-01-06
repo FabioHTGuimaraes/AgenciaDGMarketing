@@ -172,24 +172,6 @@ nav a:hover {
 /* Adiciona estilo para a aba de Serviços */
 
 
-#Serviços {
-    align-items: flex-start;
-    margin: 15%;
-    margin-bottom: 20%;
-}
-
-#Serviços #carousel-container {
-    width: 100%; 
-    overflow: hidden;
-    margin: 0;
-    position: relative;
-}
-
-#Serviços #carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
 #texto-serviços1{
     font-size: 200%;
 }
@@ -199,66 +181,62 @@ nav a:hover {
     font-weight: normal;
 }
 
-#card {
-    margin-top: 30px;
-    margin-right: 5px;
-    flex: 0 0 24%;
-    border: 3px solid #ffffff;
-    background-color: #ffffff;
-    color: #143b6d;
-    border-radius: 20px;
+#Serviços {
+    align-items: flex-start;
+    margin: 15%;
+    margin-bottom: 20%;
 }
 
-#card-img {
-    width: 100%;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
+#carousel-container {
+    width: 70%;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
 }
 
-#card-titulo {
-    font-size: 100%;
-    margin: 5%;
+#carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
-#card-texto {
-    font-size: 90%;
-    margin: 5%;
-    text-align: justify;
-    font-weight: normal;
-}
-
-#button-serviço {
-    background-color: #ffffff;
-    color: #143b6d;
-    border: none;
-    border-radius: 50px;
+.card {
+    flex: 0 0 100%; 
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 5%;
     text-align: center;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+
+#carousel-dots {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
     display: inline-block;
-    font-size: 90%;
-    font-weight: bold;
     cursor: pointer;
-    margin: 5%;
+    transition: background-color 0.3s ease;
 }
 
-.carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    z-index: 10;
-    padding: 10px;
+.dot.active {
+    background-color: #0cc0df;
 }
 
-.carousel-btn.left {
-    left: 0;
-}
-
-.carousel-btn.right {
-    right: 0;
-}
 
 
 
@@ -296,18 +274,6 @@ nav a:hover {
     margin: 15%;
 }
 
-#Depoimentos #carousel-container1 {
-    width: 100%; 
-    overflow: hidden;
-    margin: 0 auto;
-    position: relative;
-}
-
-#Depoimentos #carousel1 {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
 #texto-depoimentos1{
     font-size: 200%;
 }
@@ -317,39 +283,29 @@ nav a:hover {
     font-weight: normal;
 }
 
-#card1 {
-    margin-top: 30px;
-    margin-right: 5px;
-    flex: 0 0 24%;
-    border: 3px solid #ffffff;
-    background-color: #ffffff;
-    color: #143b6d;
-    border-radius: 20px;
-}
-
-#card-img1 {
+#carousel-container1 {
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 18px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 5%;
 }
 
-.carousel-btn {
-    position: absolute;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    z-index: 10;
-    padding: 10px;
+#carousel1 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
 }
 
-.carousel-btn.left {
-    left: 0;
+.card1 {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.carousel-btn.right {
-    right: 0;
+.card-img1 {
+    width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -609,94 +565,54 @@ footer p {
     /* Adiciona estilo para a aba de Serviços */
     
     
-    #Serviços {
-        align-items: flex-start;
-        margin: 5%;
-        margin-top: 20%;
-        margin-bottom: 20%;
-    }
-    
-    #Serviços #carousel-container {
-        width: 100%; 
+    #carousel-container {
+        width: 70%;
+        max-width: 100%;
         overflow: hidden;
         margin: 0 auto;
         position: relative;
+        border-radius: 10px;
     }
     
-    #Serviços #carousel {
+    #carousel {
         display: flex;
         transition: transform 0.5s ease-in-out;
     }
     
-    #texto-serviços1{
-        font-size: 200%;
-    }
-    
-    #texto-serviços2{
-        font-size: 110%;
-        font-weight: normal;
-    }
-    
-    #card {
-        margin-top: 30px;
-        margin-right: 5px;
-        flex: 0 0 24%;
-        border: 3px solid #ffffff;
-        background-color: #ffffff;
-        color: #143b6d;
-        border-radius: 20px;
-    }
-    
-    #card-img {
-        width: 100%;
-        border-top-left-radius: 18px;
-        border-top-right-radius: 18px;
-    }
-    
-    #card-titulo {
-        font-size: 100%;
-        margin: 5%;
-    }
-    
-    #card-texto {
-        font-size: 70%;
-        margin: 5%;
-        text-align: justify;
-        font-weight: normal;
-    }
-
-    #button-serviço {
-        background-color: #ffffff;
-        color: #143b6d;
-        border: none;
-        border-radius: 50px;
+    .card {
+        flex: 0 0 100%; 
+        background-color: #fff;
+        border-radius: 30px;
+        margin-top: 5%;
         text-align: center;
+        overflow: hidden;
+    }
+    
+    .card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0;
+    }
+    
+    #carousel-dots {
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .dot {
+        height: 12px;
+        width: 12px;
+        margin: 5px;
+        background-color: #ffffff;
+        border-radius: 50%;
         display: inline-block;
-        font-size: 90%;
-        font-weight: bold;
         cursor: pointer;
-        margin: 5%;
+        transition: background-color 0.3s ease;
     }
     
-    .carousel-btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        cursor: pointer;
-        font-size: 18px;
-        z-index: 10;
-        padding: 10px;
-    }
-    
-    .carousel-btn.left {
-        left: 0;
-    }
-    
-    .carousel-btn.right {
-        right: 0;
+    .dot.active {
+        background-color: #0cc0df;
     }
     
     
@@ -740,18 +656,6 @@ footer p {
         margin-bottom: 7%;
     }
     
-    #Depoimentos #carousel-container1 {
-        width: 100%; 
-        overflow: hidden;
-        margin: 0 auto;
-        position: relative;
-    }
-    
-    #Depoimentos #carousel1 {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
     #texto-depoimentos1{
         font-size: 200%;
     }
@@ -761,41 +665,29 @@ footer p {
         font-weight: normal;
     }
     
-    #card1 {
-        margin-top: 30px;
-        margin-right: 5px;
-        flex: 0 0 24%;
-        border: 3px solid #ffffff;
-        background-color: #ffffff;
-        color: #143b6d;
-        border-radius: 20px;
-    }
-    
-    #card-img1 {
+    #carousel-container1 {
         width: 100%;
-        border-top-left-radius: 18px;
-        border-top-right-radius: 18px;
+        overflow: hidden;
+        position: relative;
+        margin-top: 5%;
     }
     
-    .carousel-btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        cursor: pointer;
-        font-size: 18px;
-        z-index: 10;
-        padding: 10px;
+    #carousel1 {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
     }
     
-    .carousel-btn.left {
-        left: 0;
+    .card1 {
+        flex: 0 0 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
-    .carousel-btn.right {
-        right: 0;
+    .card-img1 {
+        width: 100%;
+        border-radius: 10px;
     }
     
     
@@ -1045,18 +937,6 @@ footer p {
         margin-bottom: 20%;
     }
     
-    #Serviços #carousel-container {
-        width: 100%; 
-        overflow: hidden;
-        margin: 0 auto;
-        position: relative;
-    }
-    
-    #Serviços #carousel {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
     #texto-serviços1{
         font-size: 200%;
     }
@@ -1066,65 +946,54 @@ footer p {
         font-weight: normal;
     }
     
-    #card {
-        margin-top: 30px;
-        margin-right: 5px;
-        flex: 0 0 24%;
-        border: 3px solid #ffffff;
-        background-color: #ffffff;
-        color: #143b6d;
-        border-radius: 20px;
+    #carousel-container {
+        width: 70%;
+        max-width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+        border-radius: 10px;
     }
     
-    #card-img {
-        width: 100%;
-        border-top-left-radius: 18px;
-        border-top-right-radius: 18px;
+    #carousel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
     }
     
-    #card-titulo {
-        font-size: 86%;
-        margin: 5%;
-    }
-    
-    #card-texto {
-        font-size: 70%;
-        margin: 5%;
-        text-align: justify;
-        font-weight: normal;
-    }
-    
-    #button-serviço {
-        background-color: #ffffff;
-        color: #143b6d;
-        border: none;
-        border-radius: 50px;
+    .card {
+        flex: 0 0 100%; 
+        background-color: #fff;
+        border-radius: 30px;
+        margin-top: 5%;
         text-align: center;
+        overflow: hidden;
+    }
+    
+    .card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0;
+    }
+    
+    #carousel-dots {
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .dot {
+        height: 12px;
+        width: 12px;
+        margin: 5px;
+        background-color: #ffffff;
+        border-radius: 50%;
         display: inline-block;
-        font-size: 90%;
-        font-weight: bold;
         cursor: pointer;
-        margin: 5%;
+        transition: background-color 0.3s ease;
     }
     
-    .carousel-btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        cursor: pointer;
-        z-index: 10;
-        padding: 10px;
-    }
-    
-    .carousel-btn.left {
-        left: 0;
-    }
-    
-    .carousel-btn.right {
-        right: 0;
+    .dot.active {
+        background-color: #0cc0df;
     }
     
     
@@ -1168,18 +1037,6 @@ footer p {
         margin-bottom: 7%;
     }
     
-    #Depoimentos #carousel-container1 {
-        width: 100%; 
-        overflow: hidden;
-        margin: 0 auto;
-        position: relative;
-    }
-    
-    #Depoimentos #carousel1 {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
     #texto-depoimentos1{
         font-size: 200%;
     }
@@ -1189,41 +1046,29 @@ footer p {
         font-weight: normal;
     }
     
-    #card1 {
-        margin-top: 30px;
-        margin-right: 5px;
-        flex: 0 0 24%;
-        border: 3px solid #ffffff;
-        background-color: #ffffff;
-        color: #143b6d;
-        border-radius: 20px;
-    }
-    
-    #card-img1 {
+    #carousel-container1 {
         width: 100%;
-        border-top-left-radius: 18px;
-        border-top-right-radius: 18px;
+        overflow: hidden;
+        position: relative;
+        margin-top: 5%;
     }
     
-    .carousel-btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        cursor: pointer;
-        font-size: 18px;
-        z-index: 10;
-        padding: 10px;
+    #carousel1 {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
     }
     
-    .carousel-btn.left {
-        left: 0;
+    .card1 {
+        flex: 0 0 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
-    .carousel-btn.right {
-        right: 0;
+    .card-img1 {
+        width: 100%;
+        border-radius: 10px;
     }
     
     
@@ -1473,18 +1318,6 @@ footer p {
         margin-bottom: 20%;
     }
     
-    #Serviços #carousel-container {
-        width: 90%; 
-        overflow: hidden;
-        margin: 0 auto;
-        position: relative;
-    }
-    
-    #Serviços #carousel {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
     #texto-serviços1{
         font-size: 100%;
     }
@@ -1494,45 +1327,54 @@ footer p {
         font-weight: normal;
     }
     
-    #card {
-        margin-top: 30px;
-        margin-right: 5px;
-        flex: 0 0 95%;
-        border: 3px solid #ffffff;
-        background-color: #ffffff;
-        color: #143b6d;
-        border-radius: 20px;
+    #carousel-container {
+        width: 70%;
+        max-width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+        border-radius: 10px;
     }
     
-    #card-img {
-        width: 100%;
-        border-top-left-radius: 18px;
-        border-top-right-radius: 18px;
+    #carousel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
     }
     
-    #card-titulo {
-        font-size: 100%;
-        margin: 5%;
-    }
-    
-    #card-texto {
-        font-size: 95%;
-        margin: 5%;
-        text-align: justify;
-        font-weight: normal;
-    }
-
-    #button-serviço {
-        background-color: #ffffff;
-        color: #143b6d;
-        border: none;
-        border-radius: 50px;
+    .card {
+        flex: 0 0 100%; 
+        background-color: #fff;
+        border-radius: 30px;
+        margin-top: 5%;
         text-align: center;
+        overflow: hidden;
+    }
+    
+    .card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0;
+    }
+    
+    #carousel-dots {
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .dot {
+        height: 12px;
+        width: 12px;
+        margin: 5px;
+        background-color: #ffffff;
+        border-radius: 50%;
         display: inline-block;
-        font-size: 90%;
-        font-weight: bold;
         cursor: pointer;
-        margin: 5%;
+        transition: background-color 0.3s ease;
+    }
+    
+    .dot.active {
+        background-color: #0cc0df;
     }
 
     
@@ -1576,18 +1418,6 @@ footer p {
         margin: 5%;
     }
     
-    #Depoimentos #carousel-container1 {
-        width: 90%; 
-        overflow: hidden;
-        margin: 0 auto;
-        position: relative;
-    }
-    
-    #Depoimentos #carousel1 {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
     #texto-depoimentos1{
         font-size: 100%;
     }
@@ -1597,20 +1427,29 @@ footer p {
         font-weight: normal;
     }
     
-    #card1 {
-        margin-top: 30px;
-        margin-right: 5px;
-        flex: 0 0 95%;
-        border: 3px solid #ffffff;
-        background-color: #ffffff;
-        color: #143b6d;
-        border-radius: 20px;
+    #carousel-container1 {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        margin-top: 5%;
     }
     
-    #card-img1 {
+    #carousel1 {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
         width: 100%;
-        border-top-left-radius: 18px;
-        border-top-right-radius: 18px;
+    }
+    
+    .card1 {
+        flex: 0 0 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-img1 {
+        width: 100%;
+        border-radius: 10px;
     }
     
     
@@ -1846,18 +1685,6 @@ footer p {
         margin-bottom: 20%;
     }
     
-    #Serviços #carousel-container {
-        width: 90%; 
-        overflow: hidden;
-        margin: 0 auto;
-        position: relative;
-    }
-    
-    #Serviços #carousel {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
     #texto-serviços1{
         font-size: 100%;
     }
@@ -1867,45 +1694,54 @@ footer p {
         font-weight: normal;
     }
     
-    #card {
-        margin-top: 30px;
-        margin-right: 5px;
-        flex: 0 0 95%;
-        border: 3px solid #ffffff;
-        background-color: #ffffff;
-        color: #143b6d;
-        border-radius: 20px;
+    #carousel-container {
+        width: 70%;
+        max-width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+        border-radius: 10px;
     }
     
-    #card-img {
-        width: 100%;
-        border-top-left-radius: 18px;
-        border-top-right-radius: 18px;
+    #carousel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
     }
     
-    #card-titulo {
-        font-size: 100%;
-        margin: 5%;
-    }
-    
-    #card-texto {
-        font-size: 95%;
-        margin: 5%;
-        text-align: justify;
-        font-weight: normal;
-    }
-
-    #button-serviço {
-        background-color: #ffffff;
-        color: #143b6d;
-        border: none;
-        border-radius: 50px;
+    .card {
+        flex: 0 0 100%; 
+        background-color: #fff;
+        border-radius: 30px;
+        margin-top: 5%;
         text-align: center;
+        overflow: hidden;
+    }
+    
+    .card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin: 0;
+    }
+    
+    #carousel-dots {
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .dot {
+        height: 12px;
+        width: 12px;
+        margin: 5px;
+        background-color: #ffffff;
+        border-radius: 50%;
         display: inline-block;
-        font-size: 90%;
-        font-weight: bold;
         cursor: pointer;
-        margin: 5%;
+        transition: background-color 0.3s ease;
+    }
+    
+    .dot.active {
+        background-color: #0cc0df;
     }
 
     
@@ -1949,18 +1785,6 @@ footer p {
         margin: 5%;
     }
     
-    #Depoimentos #carousel-container1 {
-        width: 90%; 
-        overflow: hidden;
-        margin: 0 auto;
-        position: relative;
-    }
-    
-    #Depoimentos #carousel1 {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-    }
-    
     #texto-depoimentos1{
         font-size: 100%;
     }
@@ -1970,20 +1794,29 @@ footer p {
         font-weight: normal;
     }
     
-    #card1 {
-        margin-top: 30px;
-        margin-right: 5px;
-        flex: 0 0 95%;
-        border: 3px solid #ffffff;
-        background-color: #ffffff;
-        color: #143b6d;
-        border-radius: 20px;
+    #carousel-container1 {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        margin-top: 5%;
     }
     
-    #card-img1 {
+    #carousel1 {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
         width: 100%;
-        border-top-left-radius: 18px;
-        border-top-right-radius: 18px;
+    }
+    
+    .card1 {
+        flex: 0 0 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-img1 {
+        width: 100%;
+        border-radius: 10px;
     }
     
     

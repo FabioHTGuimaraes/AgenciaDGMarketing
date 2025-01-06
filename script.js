@@ -34,48 +34,52 @@ function redirecionarParaPagina1() {
 
 
 // Função para mover cards serviços
-let currentIndex = 0;
+// IDs das imagens no carrossel
+const imageIds = ['img1', 'img2', 'img3', 'img4', 'img5', 'img6'];
+let currentIndex = 0; // Índice atual
 
-const moveCarousel = (direction) => {
+// Atualiza o carrossel para mostrar a imagem com base no índice atual
+function goToSlide(index) {
+    currentIndex = index;
     const carousel = document.getElementById('carousel');
-    const cards = document.querySelectorAll('#card'); 
-    const totalCards = cards.length;
-    const visibleCards = window.innerWidth <= 768 ? 1 : 4; 
-    
-    currentIndex += direction;
+    const cardWidth = document.querySelector('.card').offsetWidth;
 
-    if (currentIndex < 0) {
-        currentIndex = totalCards - visibleCards; 
-    } else if (currentIndex > totalCards - visibleCards) {
-        currentIndex = 0;
-    }
+    // Move o carrossel horizontalmente
+    carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
 
-    const cardWidth = cards[0].offsetWidth; 
-    const offset = -currentIndex * cardWidth;
-    carousel.style.transform = `translateX(${offset}px)`;
-};
+    updateDots();
+    resetAutoSlide();
+}
 
-// Função para mover cards depoimentos
-let currentIndex1 = 0;
+// Atualiza o estado das bolinhas
+function updateDots() {
+    const dots = document.querySelectorAll('.dot');
+    dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === currentIndex);
+    });
+}
 
-const moveCarousel1 = (direction) => {
-    const carousel = document.getElementById('carousel1');
-    const cards = document.querySelectorAll('#card1'); 
-    const totalCards = cards.length;
-    const visibleCards = window.innerWidth <= 768 ? 1 : 4; 
-    
-    currentIndex1 += direction;
+// Avança automaticamente para o próximo slide
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % imageIds.length;
+    goToSlide(currentIndex);
+}
 
-    if (currentIndex1 < 0) {
-        currentIndex1 = totalCards - visibleCards; 
-    } else if (currentIndex1 > totalCards - visibleCards) {
-        currentIndex1 = 0;
-    }
+// Reinicia o temporizador de avanço automático
+function resetAutoSlide() {
+    clearInterval(autoSlideInterval);
+    autoSlideInterval = setInterval(nextSlide, 4000);
+}
 
-    const cardWidth = cards[0].offsetWidth; 
-    const offset = -currentIndex1 * cardWidth;
-    carousel.style.transform = `translateX(${offset}px)`;
-};
+// Inicializa ao carregar a página
+let autoSlideInterval = setInterval(nextSlide, 4000);
+
+// Garante que o carrossel esteja pronto ao carregar a página
+document.addEventListener('DOMContentLoaded', () => {
+    goToSlide(0);
+});
+
+
 
 
 
