@@ -23,7 +23,7 @@ function redirecionarParaPagina4() {
 }
 
 // Função para redirecionar para o linkedin
-function redirecionarParaPagina1() {
+function redirecionarParaPagina5() {
     // Redireciona para outra página
     window.open("https://www.linkedin.com/in/fabioguimaraes1/", "_blank");
 }
